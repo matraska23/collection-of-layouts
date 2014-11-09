@@ -1,0 +1,91 @@
+﻿html,
+body{
+	height: 100%;
+}
+body{
+	font: 13px/15px Helvetica, Arial, sans-serif;
+	min-width: 800px;
+	margin: 0;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.m3-vertical,
+.m3-vertical-help{display:inline-block;vertical-align:middle;}
+.m3-vertical-help{width:0;height:100%;}
+
+.optpage_header{
+	background: #61ab00;
+	color: #fff;
+	margin-bottom: 36px;
+}
+
+.optpage_regularWidth {
+	width: 650px;
+	margin: 0 auto;
+}
+.optpage_header-logo{
+	background: url(img/drweblogo.png) 0 0 no-repeat;
+	width: 192px;
+	height: 48px;
+	margin: 30px auto 18px -50px;
+}
+.optpage_title1{
+	color: #61ab00;
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: normal;
+	margin: 0 0 4px 0;
+}
+.optpage_title3{
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 15px;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+.optpage_liter1,
+.optpage_liter2{
+	color: #777;
+	margin: 0;
+	padding: 0;
+}
+.optpage_liter2{
+	font-size: 12px;
+}
+.optpage_mb25{ margin-bottom: 25px;}
+.optpage_mb5{ margin-bottom: 5px;}
+.optpage_mb10{ margin-bottom: 10px;}
+.optpage_mb15{ margin-bottom: 15px;}
+.optpage_mb36{ margin-bottom: 36px;}
+.optpage_ml25{ margin-left: 25px;}
+.optpage_m0s{ margin: 0 !important;}
+
+/****************************************************/
+
+.optpage_footer{
+	margin: 64px 0 0 0;
+	border-top: 1px solid #c7c8ca;
+	padding: 20px 0;
+	font-size: 12px;
+	line-height: 20px;
+	color: #999;
+}
+.optpage_footer > a{
+	margin: 0 16px 0 0;
+}
+.optpage_footer  a{
+	display: inline-block;
+	font-size: inherit;
+	text-decoration: none;
+	color: inherit;
+}
+.optpage_footer  a:hover{
+	text-decoration: underline;
+}
+.optpage_footer_copyleft{
+	float: right;
+	color: inherit;
+	font-size: inherit;
+}	
