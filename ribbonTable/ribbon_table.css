@@ -30,6 +30,7 @@
 	top: 0px;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	white-space: nowrap; /* prevent word wrapping */
 }
 .optpage_ribtable_ususal-column{
 	min-width: 100px;
