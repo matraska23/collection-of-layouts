@@ -21,28 +21,7 @@
 var onclickHandler = function(){
 	var settings = getSettings();
 	alert('Ready');
-	//window.close();
 };
 
 document.all.save1.onclick = onclickHandler;
 document.all.save2.onclick = onclickHandler;
-
-/*safari.self.addEventListener("message", function(messageEvent){
-	var data = messageEvent.message;
-	
-	switch (messageEvent.name) {
-		case "getWizardSettings":
-			var 	locNodes = document.querySelectorAll('[data-l10n-id]'),
-						key;
-						
-			for(var i = 0, len = locNodes.length; i < len; i++ ){
-				key = locNodes[i].dataset.l10nId;
-				if (data[key]) {
-					locNodes[i].textContent = data[key];
-				}
-			}
-		break;
-	}
-}, false);
-
-safari.self.tab.dispatchMessage("getWizardSettings");*/

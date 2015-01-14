@@ -25,10 +25,13 @@ body{
 	margin: 0 auto;
 }
 .optpage_header-logo{
-	background: url(img/drweblogo.png) 0 0 no-repeat;
+	/*background: url(img/drweblogo.png) 0 0 no-repeat;
 	width: 192px;
-	height: 48px;
-	margin: 30px auto 18px -50px;
+	height: 48px;*/
+	margin: 18px 0;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
 }
 .optpage_title1{
 	color: #61ab00;
