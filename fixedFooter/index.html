@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+	</head>
+	<body>
+<!--
+Page Layout with fixed footer based on table grid
+-->
+		<div class="dwc-layout-wrap">
+			<div class="dwc-layout" style="/*display: none;*/">
+				<div class="dwc-layout_header">
+					<div class="dwc-fix-panel">
+						<div class="dwc-central-col">Fixed header (layer1)</div>	
+					</div>
+				</div>
+				<div class="dwc-layout_main">
+					<div class="test">Resize block to emulate content</div><!-- for emulation content size -->
+				</div>
+				<div class="dwc-layout_footer">
+					<div class="dwc-central-col">Footer fixed to bottom</div>
+				</div>
+			</div>
+			<div class="dwc-layout" style="display: none;">
+				<div class="dwc-layout_header">
+					<div class="dwc-fix-panel">
+						<div class="dwc-central-col">Fixed header (layer2)</div>	
+					</div>
+				</div>
+				<div class="dwc-layout_main">
+					<div class="test">Resize block to emulate content</div><!-- for emulation content size -->
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

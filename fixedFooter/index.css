@@ -1,0 +1,53 @@
+html, body{
+	height: 100%;
+}
+body{
+	font: 13px/15px Arial;
+	color: #333;
+	margin: 0;
+	overflow-y: scroll;
+	min-width: 930px;
+}
+
+.dwc-layout,
+.dwc-layout-wrap{
+	height: 100%; 
+	width: 100%;
+}
+.dwc-layout{
+	display: table;
+}
+.dwc-layout_main{
+	display: table-row;
+	height: 100%;
+}
+.dwc-layout_header{
+	display: table-row;
+	height: 50px;
+}
+.dwc-layout_footer{
+	display: table-row;
+	height: 50px;
+	background: #eee;
+}
+.test{
+	width: 300px;
+	height: 100%;
+	height: 2000px;
+	height: 400px;
+	background: yellow;
+}
+.dwc-central-col{
+	width: 930px;
+	margin: 0 auto;
+}
+.dwc-fix-panel{
+	position: fixed;
+	height: 50px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgb(123, 211, 87);
+	color: #fff;
+
+}
